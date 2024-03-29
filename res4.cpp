@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-	float a, b, c, d, res4 = 0; 
+	float x, y, aux; 
 	
-	cout << "Ingrese el numero 1 "<<endl; cin >> a; 
-	cout << "Ingrese el numero 2: "<<endl; cin >> b;
-	cout << "Ingrese el numero 3: "<<endl; cin >> c; 
-	cout << "Ingrese el numero 4: "<<endl; cin >> d; 
+	cout << "Ingrese el numero 1 "<<endl; cin >> x; 
+	cout << "Ingrese el numero 2: "<<endl; cin >> y;
 	
-	res4 = a + (b/(c-d));
+	aux = x;
+	x = y;
+	y = aux;
 	
-	cout.precision(4);
 	cout << "______________________________ " <<endl; 
-	cout << "El valor del resultado 4 es: " << res4 <<endl; 
+	cout << "El número 1 ahora es: " << x <<endl;
+	cout << "El número 2 ahora es: " << y <<endl; 
 
 	return 0;
 }
