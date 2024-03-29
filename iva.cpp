@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/* Ejercicio 1: un programa que lea 2 numeros y muestre por cada salida la suma, resta, multiplicacion y division */
+/* Ejercicio 2: Escribe un programa que lea de la entrada estándar el precio de un producto y muestre en la salida estándar el precio del producto al aplicarle el IVA. */
 
 int main() {
 	float precio, precioiva=0; 
